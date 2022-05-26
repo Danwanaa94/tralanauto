@@ -17,7 +17,7 @@ p{
     text-shadow: maroon;
     }
     .main-body{
-        background-color: khaki;
+    background-color: steelblue;
     }
     main{
         height: 80vh;
@@ -63,13 +63,13 @@ p{
 
     } 
     .logo{
-        width: 10%;
-        height: 12vh;
+        width: 20%;
+        height: 22vh;
         display: flex;
         float: left;
         border-radius: 10px;
-    
-        
+        margin-block-start: -75px;
+
     }
     
     
@@ -114,7 +114,7 @@ p{
     nav>ul>li {
         text-align: center;
         line-height: 40px;
-        margin-left: 70px;
+        margin-left: 20px;
 
     }
     
@@ -275,7 +275,7 @@ flex-direction: row;
 }
 .part{
     height: 40vh;
-    margin: auto;
+    margin:30px;
     width: 90%;
     
 }
@@ -288,5 +288,65 @@ flex-direction: row;
 .home{
     height: 100%;
     width: 100%;
-}
-    
+}  
+
+
+/* body  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 80px;  
+        background: #23463f;  
+        border-radius: 15px ;  
+          
+}  
+h2{  
+    text-align: center;  
+    color: #277582;  
+    padding: 20px;  
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+}   */
