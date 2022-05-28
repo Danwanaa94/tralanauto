@@ -5,27 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login Page</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body>
-    <h2>Login Page</h2><br>    
-    <div class="login">    
-    <form id="login" method="get" action="login.php">    
-        <label><b>User Name     
-        </b>    
-        </label>    
-        <input type="text" name="Uname" id="Uname" placeholder="Username" required>    
-        <br><br>    
-        <label><b>Password     
-        </b>    
-        </label>    
-        <input type="Password" name="Pass" id="Pass" placeholder="Password" required>    
-        <br><br>    
-        <input type="button" name="log" id="log" value="Log In Here">       
-        <br><br>    
-        <input type="checkbox" id="check">    
-        <span>Remember me</span>    
-        <br><br>    
-        Forgot <a href="#">Password</a>    
-    </form>     
+    <h2>Login to TRALANAUTOMOBILE</h2><br>   
+    <div>
+        <img src="../LOGO/LOGO.jpg" class="log"/>
+    </div>   
+    <form>    
+        <div class="mb-3">
+            <label for="email" class="form-label"> Email </label>
+            <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email " />
+          </div>
+        <div class="mb-3">
+          <label for="password" class="form-label"> Password </label>
+          <input
+            type="text"
+            id="password"
+            class="form-control"
+          name="password"
+            placeholder="Enter your Password"
+            aria-describedby="password"/>
+        </div>
+        <div class="mb-3">
+          <button class="btn btn-primary d-grid w-100">login </button>
+      </div>
+       <br><br>    
+        Forgot <a href="#">Password?</a>    
+    </form>             
+     <p class="text-center">
+        <span>New on our platform?</span>
+        <a href="register.html">
+          <span>Create an account</span>
+        </a>
+      </p>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>
