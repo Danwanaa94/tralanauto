@@ -1,14 +1,3 @@
-/* nav{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-justify-content:space-evenly;
-padding: 10px 30px;
-margin: 10px;
-background-color: crimson;
-height: 10vh;
-
-} */
 
 p{
     text-align: center;
@@ -71,7 +60,7 @@ p{
     } 
     .logo{
         width: 15%;
-        height: 22vh;
+        height: 19vh;
         display: flex;
         float: left;
         border-radius: 10px;
@@ -275,6 +264,7 @@ img{
 .top{
     color: white;
     height: 3vh;
+    margin-left: 30px;
     
 }
 .inputs{
