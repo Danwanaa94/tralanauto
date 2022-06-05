@@ -4,13 +4,20 @@ p{
     margin: 10px  10px;
     padding: 20px;
     text-shadow: maroon;
+    font-weight: 100px;
     }
     .main-body{
     background-color:whitesmoke;
     }
     main{
         height: 80vh;
+    
     }
+
+
+
+
+
     .con{
         margin: 10px;
         padding: 20px;
@@ -89,6 +96,7 @@ p{
     
     * {
         box-sizing: border-box;
+    
 
     }
     
@@ -290,11 +298,16 @@ flex-direction: row;
     margin:30px;
     width: 90%;
     
+
+    
 }
 .spare{
     height: 40vh;
-    margin: auto;
-    width: 90%;
+    margin:auto 30px;
+    width: 40%;
+    position:absolute;
+    left:  50%;
+    
 }
 
 .home{
